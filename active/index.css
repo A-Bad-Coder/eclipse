@@ -161,10 +161,6 @@ a {
   height: 40px;
 }
 
-.navbar:hover {
-  transform: scale(1.05);
-}
-
 .navbar a {
   color: #ffffff;
   text-align: center;
