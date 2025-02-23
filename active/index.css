@@ -61,7 +61,7 @@ body {
   background-color: #222;
   text-align: center;
   color: #fff;
-  cursor:cell;
+  cursor:pointer;
 }
 
 a {
@@ -175,7 +175,7 @@ a {
 }
 
 .navbar a:hover {
-  background-color: #389fffb1;
+  background-color: #134a7fb1;
   transform: scale(1.1);
 }
 
