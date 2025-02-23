@@ -1,6 +1,6 @@
 /*thanks lupinevault*/
 body {
-  background-color:#120924;
+  background-color:#000000;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -9,8 +9,8 @@ body {
 
 
 #header {
-  background-color: #120924;
-  
+  background-color: #4c4951;
+  margin-top: 10%;
   padding: 20px;
   text-align: center;
 }
@@ -62,7 +62,7 @@ body {
   cursor:cell;
 }
 
-a{
+a {
   text-decoration: none;
   color:white;
   width:50px;
@@ -79,7 +79,7 @@ a{
 }
 
 .form_input:hover{
-  cursor:cell;
+  transform: scale(1.05);
 }
 
 .form__input:focus {
@@ -145,4 +145,48 @@ a{
 
 .fa:hover {
   color: #aaa;
+}
+
+.navbar {
+  background-color: #73b4ffb1;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 90%;
+  height: 40px;
+}
+
+.navbar:hover {
+  transform: scale(1.05);
+}
+
+.navbar a {
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  vertical-align: baseline;
+  border-radius: 10px;
+}
+
+.navbar a:hover {
+  background-color: #389fffb1;
+  transform: scale(1.1);
+}
+
+.navbar p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  vertical-align: baseline;
+  border-radius: 10px;
+  padding-bottom: 40%;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
