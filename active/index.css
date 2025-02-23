@@ -4,7 +4,7 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
-  background-image: https://apod.nasa.gov/apod/image/2404/CoronaExmouth_Hart_1920.jpg;
+  background-image: url(https://apod.nasa.gov/apod/image/2404/CoronaExmouth_Hart_1920.jpg);
 }
 
 
